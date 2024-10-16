@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+td, th {
+	border: 1px solid transparent;
+  border-radius: 10px;
+}
+
+html, body {
+  height:100%;
+} 
+
+tr {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+
+body{
+  background-image: url("../images/Space.jpg");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: xx-large;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: 2px 2px 5px black;
+}
+
+#planetpics img{
+  width: 50%;
+  height: auto;
+}
+
+
+#planets {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+#Names th{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: x-large;
+  text-decoration: underline;
+  color: white;
+  background-color: black;
+}
+
+#Fact1,#Fact3,#Fact5,#Fact7{
+  background-color: rgba(255, 255, 255, 0.1); 
+}
+
+#Fact1 td, #Fact2 td, #Fact3 td, #Fact4 td, #Fact5 td, #Fact6 td, #Fact7 td {
+  padding: 15px;
+}
+
+
